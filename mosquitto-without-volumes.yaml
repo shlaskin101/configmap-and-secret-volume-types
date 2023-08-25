@@ -14,8 +14,8 @@ spec:
       labels:
         app: mosquitto
     spec:
-        containers:
-          - name: mosquitto
-            image: eclipse-mosquitto:2.0
-            ports:
-              - containerPort: 1883
+      containers:
+        - name: mosquitto
+          image: eclipse-mosquitto:2.0
+          ports:
+            - containerPort: 1883
